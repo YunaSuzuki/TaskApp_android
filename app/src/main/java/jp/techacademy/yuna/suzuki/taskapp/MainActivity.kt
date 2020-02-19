@@ -114,5 +114,8 @@ class MainActivity : AppCompatActivity() {
         mRealm.close()
     }
 
+    //検索ボタン押下時の呼び出しメソッド
+
+
 
 }
