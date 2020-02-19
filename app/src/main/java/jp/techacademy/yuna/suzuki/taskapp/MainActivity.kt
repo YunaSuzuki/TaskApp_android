@@ -10,6 +10,9 @@ import android.content.Intent
 import android.support.v7.app.AlertDialog
 import android.app.AlarmManager
 import android.app.PendingIntent
+import android.support.v7.widget.SearchView
+import android.view.Menu
+import io.realm.RealmQuery
 
 const val EXTRA_TASK = "jp.techacademy.yuna.suzuki.taskapp.TASK"
 
@@ -110,4 +113,6 @@ class MainActivity : AppCompatActivity() {
 
         mRealm.close()
     }
+
+
 }
